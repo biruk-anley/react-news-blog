@@ -1,16 +1,16 @@
 const Navbar = () => {
-  const alerted = (text, events) => {
-    alert(text +  "  " + events.bubbles); // this will handle event object alert.txt will print out text which is passed as an argument
+  const alerted = (n) => {
+    console.log("n"); // this will handle event object alert
   };
   return (
     <nav className="navbar">
-      <h1>The Dojo Blog</h1>
+      <h1>The reacts blog Blog</h1>
       <div className="links">
         <a href="/">Home</a>
         <a href="/create">New Blog</a>
         <button
-          onClick={(events) =>
-            alerted("this is an argumentative event", events)
+          onClick={() =>
+            alerted("hello new branch")
           }
         >
           click Me
