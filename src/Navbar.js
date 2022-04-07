@@ -1,6 +1,6 @@
 const Navbar = () => {
   const alerted = (n) => {
-    console.log(n); // this will handle event object alert
+    alert(n); // this will handle event object alert
   };
   return (
     <nav className="navbar">
