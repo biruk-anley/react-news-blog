@@ -10,7 +10,13 @@ function App() {
         <Home />
         
       </div>
-        {/*  down below we will see how to get contents from the third child usecontext final..usecontext1--2--3 */}
+        {/*  down below we will see how to get contents from the third child usecontext final..usecontext1--2--3 
+            again here we will pass some value from context1 to context final so that it will be shown in app.js 
+
+            :::producer=cotext1
+            ...consumer = context final
+            
+        */}
       <div className="usecontext">
           <Usecontext1/>
       </div>
