@@ -9,6 +9,7 @@ const UseStates = () => {
 
   // this one is same as the above and it is used to count clikable events
   let [count, Setcounter] = useState(1);
+  
 
   //method one
   const less = () => {
