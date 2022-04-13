@@ -1,7 +1,11 @@
 import React from 'react';
 import Usecontext2 from './Usecontext2';
 
-{/*  create a context and ppass value with export method */}
+{/*  create a context and ppass value with export method 
+        react use context simplifies the consumption is the different from the normal onw
+
+
+*/}
 export const Usercontext = React.createContext()
 export const detailcontext= React.createContext()
 function Usecontext1() {
@@ -9,7 +13,7 @@ function Usecontext1() {
       <div>
         <Usercontext.Provider value={"KIbur life"}>
           <detailcontext.Provider value={"detail for Kibur life which is nested"}>
-            <Usecontext2 />
+            <Usecontext2/>
           </detailcontext.Provider>
         </Usercontext.Provider>
       </div>
